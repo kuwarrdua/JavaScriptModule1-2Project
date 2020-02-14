@@ -1,0 +1,88 @@
+/*
+BASIC CSS STYLES USED
+*/
+body{
+	margin-top: 50px;
+	text-align: center;
+	background-image: linear-gradient(to right, #C9FBF1, #8AECDA ,#4EF3D4);
+}
+/*
+Adding styling to the geading element
+*/
+h1{
+	text-shadow: 2px 2px 5px brown;
+	font-family: verdana;
+}
+/*
+For stying the input text field on the main page
+*/
+input[type="text"]{
+	height:40px;
+	width:270px;
+	border-radius: 5px;
+	border: 2px solid #113F7B;
+	text-align: center;
+}
+/*
+For styling the ul
+*/
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+/*
+For styling the li
+*/
+li{
+	height:30px;
+	border-radius: 5px;
+}
+/*
+for getting the striped li using different colors
+*/
+li:nth-child(odd){
+	background-color: #C0ABB2;
+}
+
+li:nth-child(even){
+	background-color: #868485;
+	width:auto;
+}
+/*
+para styling
+*/
+p{
+	display:inline;
+}
+/*
+delete button styling
+*/
+.delete{
+	margin-left: 10px;
+	border-radius: 2px;
+}
+/*
+add button styling
+*/
+button{
+	width:80px;
+	height:30px;
+	border-radius:8px;
+	border: 2px solid #E1175A;
+}
+
+/*Tried to use the fade effects as well*/
+/*
+.fade{
+	animation: fadeOut 3s;
+}
+
+@keyframes fadeOut{
+	from{
+		opacity: 1;
+	}
+
+	to{
+		opacity:0;
+	}
+}*/
